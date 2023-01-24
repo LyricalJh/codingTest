@@ -105,3 +105,181 @@
 
 // console.log(result);
 }
+
+//문제 44각 자리수의 합 
+
+{
+
+    //my soulution..
+    // const nums = prompt('input numbers').split("");
+
+    // let parseNums = []
+    // let numbers = 0;
+    // for(item of nums){
+    //     parseNums.push(parseInt(item));
+    // }
+    // for(let i =0; i < parseNums.length; i++){
+    //     numbers+= parseNums[i];
+    // }
+    // console.log(numbers);
+
+    //answer page solution
+//     let n = prompt('숫자를 입력하세요.');
+//     let sum = 0;
+
+//     while(n !== 0){
+//     sum += (n % 10);
+//     n = Math.floor(n/10);
+//     }
+
+// console.log(sum);
+
+    
+    
+}
+// getTime() 사용하여 현재 연도 2019를 출력하시오. 
+//문제 45
+{
+    // const d = new Date();
+
+    // let year = d.getTime();
+    // console.log(year);
+    // year = Math.floor(year/(3600*24*365*1000))+1970
+
+    // console.log(year);
+}
+
+//  문 46 각자리의 합 
+
+{
+    //my
+    // const nums = prompt('input numbers').split("");
+
+    // let parseNums = []
+    // let numbers = 0;
+    // for(item of nums){
+    //     parseNums.push(parseInt(item));
+    // }
+    // for(let i =0; i < parseNums.length; i++){
+    //     numbers+= parseNums[i];
+    // }
+    // console.log(numbers);
+
+    //answer
+    // let arr = [];
+    // let sum = 0;
+
+    // for (let i=0; i<20; i++){
+    // arr[i] = i+1;
+    // }
+
+    // arr.forEach((n) => {
+    // while(n !== 0){
+    //     sum += (n % 10);
+    //     n = Math.floor(n/10);
+    // }
+    // })
+
+    // console.log(sum);
+    
+}
+
+//문제 47 set 자료형의 응용 중복을 제거하시오.
+{
+    // const person = {
+    //     이호준: "01050442903",
+    //     이호상: "01051442904",
+    //     이준호: "01050342904",
+    //     이호준: "01050442903",
+    //     이준: "01050412904",
+    //     이호: "01050443904",
+    //     이호준: "01050442903"
+    //   };
+// my answer
+    // const mySet = new Set();
+    // mySet.add(people);
+    
+    // for (let item of mySet){
+    //     console.log(item);
+    // }
+// page answer
+
+    // let result = new Set();
+    // for(let key in people){
+    //     result.add(people[key]);
+    // }
+
+    // console.log(result.size);
+}
+
+//문제 48 대소문자 바꿔서 출력하기 
+
+{
+//    const words = prompt('input here').split("");
+//    let arr = [];
+//     let answer='';
+//     for(let i =0; i < words.length; i++){
+//         if(words[i] === words[i].toUpperCase()){
+//             arr.push(words[i].toLowerCase());
+//         }else if(words[i] === words[i].toLowerCase()){
+//            arr.push( words[i].toUpperCase());
+//         }
+//     }
+
+//    for(let i =0; i < arr.length; i++){
+//     answer += arr[i];
+//    }
+//    console.log(answer);
+    
+}
+
+// 문제 49 최댓값 구하기 
+{
+    //my answer
+    // const nums = prompt().split(" ");
+    // console.log(nums);
+    // let numbers = []
+    // nums.map(item => {
+    //     numbers.push(parseInt(item));
+    // })
+    // console.log(numbers);
+    // numbers.sort().reverse();
+    // console.log(numbers[0]);
+
+    // aswer page
+    // let numbers = prompt('10개의 숫자를 입력하세요').split(' ').map((n) => {
+    //     return parseInt(n, 10);
+    //   });
+      
+    //   numbers.sort((a, b) => {
+    //     return b-a;
+    //   });
+      
+    //   console.log(numbers[0]);
+}
+
+// 문제 50 버블 정렬 구하기 
+
+{
+    // function bubble(arr) {
+    //     let result = arr.slice(); 
+
+    //     for (let i = 0; i < result.length - 1; i++) {
+    //       for (let j = 0; i< result.length-i; j++) {
+    //         if (result[j] > result[j + 1]) {
+    //             let temp = result[j];
+    //             result[j] = result[j +1];
+    //             result[j+1] = temp;
+    //         }
+    //       }
+    //     }
+    //     return result;
+
+    //   }
+      
+    //   const items = prompt('입력해주세요.').split(' ').map((n) => {
+    //     return parseInt(n, 10);
+    //   });
+      
+    //   console.log(bubble(items));
+}
