@@ -283,3 +283,19 @@
       
     //   console.log(bubble(items));
 }
+
+// 재귀함수 만들어보기!
+
+{
+    // function loopfunction(n){
+    //     if(n === 0){
+    //         return;
+    //     }
+    //     console.log("빼기전",n)
+    //     loopfunction(n-1);
+    //     console.log("뺀 후",n)
+        
+    // }
+
+    // loopfunction(3);
+}
